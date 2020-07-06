@@ -14,8 +14,8 @@ interface FileListProps {
 const FileList: React.FC<FileListProps> = ({ files }: FileListProps) => {
   return (
     <Container>
-      {files.map((uploadedFile) => (
-        <li key={uploadedFile.name}>
+      {files.map((uploadedFile, i) => (
+        <li key={uploadedFile.name+String(i)}>
           <FileInfo>
             <div>
               <strong>{uploadedFile.name}</strong>

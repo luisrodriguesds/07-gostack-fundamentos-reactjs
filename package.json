@@ -58,6 +58,7 @@
     "eslint-plugin-react-hooks": "^2.5.0",
     "prettier": "^2.0.4",
     "react-app-rewired": "^2.1.5",
-    "ts-jest": "^25.4.0"
+    "ts-jest": "^25.4.0",
+    "typescript-styled-plugin": "^0.15.0"
   }
 }
